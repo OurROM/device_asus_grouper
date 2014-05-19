@@ -42,3 +42,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/asus/grouper
 include device/asus/grouper/BoardConfigCommon.mk
 
 TARGET_RECOVERY_FSTAB = device/asus/grouper/fstab.grouper
+
+DEVICE_RESOLUTION := 1280x800
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
